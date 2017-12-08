@@ -14,12 +14,15 @@ BOT_NAME = 'CNBlogsScrapy'
 SPIDER_MODULES = ['CNBlogsScrapy.spiders']
 NEWSPIDER_MODULE = 'CNBlogsScrapy.spiders'
 
+ITEM_PIPELINES = {
+    'CNBlogsScrapy.pipelines.CnblogsscrapyPipeline': 300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'CNBlogsScrapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+#ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

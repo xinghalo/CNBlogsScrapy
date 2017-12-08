@@ -11,3 +11,13 @@ import scrapy
 class CnblogsscrapyItem(scrapy.Item):
     # define the fields for your item here like:
     pass
+
+class CnblogsItem(scrapy.Item):
+    name            = scrapy.Field()
+    author          = scrapy.Field()
+    publish_time    = scrapy.Field()
+    rec_count       = scrapy.Field()
+    comment_count   = scrapy.Field()
+    read_count      = scrapy.Field()
+    url             = scrapy.Field()
+

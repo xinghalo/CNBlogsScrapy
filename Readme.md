@@ -1,5 +1,9 @@
 # 博客园爬虫，边学边做
 
+## 参考
+
+[官方文档](https://docs.scrapy.org/en/latest/intro/tutorial.html#creating-a-project)
+
 ## 安装
 
 ### 安装scrapy
